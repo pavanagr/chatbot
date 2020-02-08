@@ -19,14 +19,14 @@ def index():
 def chat():
     try:
         user_message = request.form["text"]
-        response = requests.get("https://4d1acd5b.ngrok.io/parse",params={"q":user_message})
+        response = requests.get("https://2e44b165.ngrok.io/parse",params={"q":user_message})
         response = response.json()
         print(response)
         entities = response.get("entities")
         intent = response.get("intent")
         print("Intent {}, Entities {}".format(intent['name'],entities))
-        if intent['name'] == "startup_search":
-            response_text = startup_search(entities)
+        if intent['name'] == "integration_search":
+            response_text = integration_search(entities)
         elif intent['name'] == "startup_info":
             response_text = startup_info(entities)
         elif intent['name'] == "affirm":
