@@ -19,7 +19,7 @@ def index():
 def chat():
     try:
         user_message = request.form["text"]
-        response = requests.get("http://127.0.0.1:5000/parse",params={"q":user_message})
+        response = requests.get("https://4d1acd5b.ngrok.io/parse",params={"q":user_message})
         response = response.json()
         print(response)
         entities = response.get("entities")
