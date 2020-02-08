@@ -1,0 +1,444 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "howdy"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "dear sir"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "yep"
+      },
+      {
+        "intent": "affirm",
+        "text": "yeah"
+      },
+      {
+        "intent": "affirm",
+        "text": "indeed"
+      },
+      {
+        "intent": "affirm",
+        "text": "that's right"
+      },
+      {
+        "intent": "affirm",
+        "text": "ok"
+      },
+      {
+        "intent": "affirm",
+        "text": "great"
+      },
+      {
+        "intent": "affirm",
+        "text": "right, thank you"
+      },
+      {
+        "intent": "affirm",
+        "text": "correct"
+      },
+      {
+        "intent": "affirm",
+        "text": "great choice"
+      },
+      {
+        "intent": "affirm",
+        "text": "sounds really good"
+      },
+      {
+        "intent": "startup_search",
+        "entities": [
+          {
+            "start": 29,
+            "end": 34,
+            "value": "Delhi",
+            "entity": "location"
+          }
+        ],
+        "text": "i'm looking for a startup in Delhi"
+      },
+      {
+        "intent": "brand_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 20,
+            "value": "EventTracker",
+            "entity": "brand"
+          }
+        ],
+        "text": "What is EventTracker?"
+      },
+      {
+        "intent": "brand_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 20,
+            "value": "EventTracker",
+            "entity": "brand"
+          }
+        ],
+        "text": "What is EventTracker SIEM?"
+      },
+      {
+        "intent": "brand_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 20,
+            "value": "EventTracker",
+            "entity": "brand"
+          }
+        ],
+        "text": "What is EventTracker Log Manager?"
+      },
+      {
+        "intent": "brand_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 20,
+            "value": "EventTracker",
+            "entity": "brand"
+          }
+        ],
+        "text": "What is EventTracker Security Center?"
+      },
+      {
+        "intent": "brand_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 20,
+            "value": "EventTracker",
+            "entity": "brand"
+          }
+        ],
+        "text": "What is EventTracker product?"
+      },
+      {
+        "intent": "integration_search",
+        "entities": [
+          {
+            "start": 13,
+            "end": 27,
+            "value": "Knowledge Pack",
+            "entity": "support"
+          }
+        ],
+        "text": "What are the Knowledge Pack EventTracker Support?"
+      },
+      {
+        "intent": "integration_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 49,
+            "value": "Fortinet",
+            "entity": "integration"
+          }
+        ],
+        "text": "Is EventTracker Support integration with Fortinet?"
+      },
+      {
+        "intent": "integration_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 49,
+            "value": "Solaris",
+            "entity": "integration"
+          }
+        ],
+        "text": "Is EventTracker Support integration with Solaris?"
+      },
+      {
+        "intent": "integration_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 49,
+            "value": "fortinac",
+            "entity": "integration"
+          }
+        ],
+        "text": "Is EventTracker Support integration with fortinac?"
+      },
+      {
+        "intent": "integration_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 49,
+            "value": "fastlycdn",
+            "entity": "integration"
+          }
+        ],
+        "text": "Is EventTracker Support integration with Fastly CDN?"
+      },
+      {
+        "intent": "startup_search",
+        "entities": [
+          {
+            "start": 29,
+            "end": 35,
+            "value": "Mumbai",
+            "entity": "location"
+          }
+        ],
+        "text": "i'm looking for a startup in Mumbai"
+      },
+      {
+        "intent": "startup_search",
+        "entities": [
+          {
+            "start": 28,
+            "end": 37,
+            "value": "Bangalore",
+            "entity": "location"
+          }
+        ],
+        "text": "i'm looking for startups in Bangalore"
+      },
+      {
+        "intent": "startup_search",
+        "entities": [
+          {
+            "start": 29,
+            "end": 36,
+            "value": "Gurgaon",
+            "entity": "location"
+          }
+        ],
+        "text": "i'm looking for a startup in Gurgaon"
+      },
+      {
+        "intent": "startup_search",
+        "entities": [
+          {
+            "start": 29,
+            "end": 32,
+            "value": "Goa",
+            "entity": "location"
+          }
+        ],
+        "text": "i'm looking for a startup in Goa"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "yep"
+      },
+      {
+        "intent": "affirm",
+        "text": "yeah"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "stop"
+      },
+      {
+        "intent": "goodbye",
+        "text": "end"
+      },
+      {
+        "intent": "startup_info",
+        "entities": [
+          {
+            "start": 6,
+            "end": 14,
+            "value": "startups",
+            "entity": "query"
+          }
+        ],
+        "text": "top 5 startups"
+      },
+      {
+        "intent": "startup_info",
+        "entities": [
+          {
+            "start": 6,
+            "end": 16,
+            "value": "industries",
+            "entity": "query"
+          }
+        ],
+        "text": "top 5 industries"
+      },
+      {
+        "intent": "startup_info",
+        "entities": [
+          {
+            "start": 6,
+            "end": 12,
+            "value": "cities",
+            "entity": "query"
+          }
+        ],
+        "text": "top 5 cities"
+      },
+      {
+        "intent": "startup_info",
+        "entities": [
+          {
+            "start": 6,
+            "end": 15,
+            "value": "investors",
+            "entity": "query"
+          }
+        ],
+        "text": "top 5 investors"
+      },
+      {
+        "intent": "startup_info",
+        "entities": [
+          {
+            "start": 6,
+            "end": 10,
+            "value": "type",
+            "entity": "query"
+          }
+        ],
+        "text": "Top 5 type of funding"
+      },
+      {
+        "intent": "startup_info",
+        "entities": [
+          {
+            "start": 6,
+            "end": 16,
+            "value": "industries",
+            "entity": "query"
+          }
+        ],
+        "text": "top 5 industries"
+      },
+      {
+        "intent": "startup_info",
+        "entities": [
+          {
+            "start": 6,
+            "end": 16,
+            "value": "categories",
+            "entity": "query"
+          }
+        ],
+        "text": "top 5 categories"
+      },
+      {
+        "intent": "startup_info",
+        "entities": [
+          {
+            "start": 6,
+            "end": 10,
+            "value": "city",
+            "entity": "query"
+          }
+        ],
+        "text": "which city has the most startups?"
+      },
+      {
+        "intent": "affirm",
+        "text": "indeed"
+      },
+      {
+        "intent": "affirm",
+        "text": "that's right"
+      },
+      {
+        "intent": "affirm",
+        "text": "ok"
+      },
+      {
+        "intent": "affirm",
+        "text": "great"
+      },
+      {
+        "intent": "startup_info",
+        "entities": [
+          {
+            "start": 6,
+            "end": 12,
+            "value": "cities",
+            "entity": "query"
+          }
+        ],
+        "text": "top 5 cities for a startup"
+      }
+    ],
+    "regex_features": [
+      {
+        "name": "greet",
+        "pattern": "hey[^\\s]*"
+      },
+      {
+        "name": "zipcode",
+        "pattern": "[0-9]{5}"
+      }
+    ],
+    "lookup_tables": [],
+    "entity_synonyms": [
+      {
+        "value": "Mumbai",
+        "synonyms": [
+          "Bombay",
+          "mumba"
+        ]
+      },
+      {
+        "value": "Bangalore",
+        "synonyms": [
+          "Benglaru"
+        ]
+      }
+    ]
+  }
+}
