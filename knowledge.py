@@ -27,8 +27,9 @@ brand_search_response_dict = {
 }
 
 integration_response_dict = {
-	"fortinet":'here is the link of Fortninet',
-	"solaris":'here is the link of Solaris',
+	"fortinet":'here is the link of <a href="https://www.eventtracker.com/knowledge-packs/fortinac/" target = "_blank">Fortninet</a>',
+	"solaris":'here is the link of <a href="https://www.eventtracker.com/knowledge-packs/solaris-bsm/" target = "_blank">Solaris</a>',
+	"fastly cdn":'here is the link of <a href="https://www.eventtracker.com/knowledge-packs/fastly-cdn/" target = "_blank">Fastly CDN</a>',
 	"faq_link":'You can check out the list of startups here <a href="http://www.github.com/lkamat">Startups in India</a>'
 }
 
