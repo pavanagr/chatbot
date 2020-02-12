@@ -19,7 +19,7 @@ def index():
 def chat():
     try:
         user_message = request.form["text"]
-        response = requests.get("https://fe49adce.ngrok.io/parse",params={"q":user_message})
+        response = requests.get("https://f8520805.ngrok.io/parse",params={"q":user_message})
         response = response.json()
         print(response)
         entities = response.get("entities")
@@ -36,7 +36,7 @@ def chat():
         elif intent['name'] == "goodbye":
             response_text = goodbye()
         else:
-            response_text = "Sorryd, can not help at this time"
+            response_text = "Sorry, can not help at this time"
         return jsonify({"status":"success","response":response_text})
         #return 'OK'
     except Exception as e:
